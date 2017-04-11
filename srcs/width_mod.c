@@ -6,11 +6,11 @@
 /*   By: kbagot <kbagot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/09 13:17:15 by kbagot            #+#    #+#             */
-/*   Updated: 2017/02/11 17:31:51 by kbagot           ###   ########.fr       */
+/*   Updated: 2017/02/13 20:14:23 by kbagot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "libft.h"
 
 static void	width_mod_2(t_flag *flag, t_prt *prt, int i)
 {

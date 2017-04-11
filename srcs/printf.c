@@ -6,11 +6,11 @@
 /*   By: kbagot <kbagot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/17 15:15:14 by kbagot            #+#    #+#             */
-/*   Updated: 2017/02/11 17:06:56 by kbagot           ###   ########.fr       */
+/*   Updated: 2017/02/13 20:13:27 by kbagot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "libft.h"
 
 static int	no_specif(t_prt *prt, int j, int pp, const char *restrict format)
 {

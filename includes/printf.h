@@ -6,14 +6,13 @@
 /*   By: kbagot <kbagot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/17 17:53:04 by kbagot            #+#    #+#             */
-/*   Updated: 2017/02/11 17:40:03 by kbagot           ###   ########.fr       */
+/*   Updated: 2017/02/13 19:54:21 by kbagot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PRINTF_H
 # define PRINTF_H
 
-# include <libft.h>
 # include <stdarg.h>
 # include <wchar.h>
 
@@ -43,7 +42,6 @@ typedef struct	s_flag
 	int		z;
 }				t_flag;
 
-int				main(void);
 int				ft_printf(const char *restrict format, ...);
 void			make_specifier(va_list ap, t_prt *prt);
 void			add_prt(t_prt *prt, t_flag *flag);

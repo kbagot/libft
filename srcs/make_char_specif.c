@@ -6,11 +6,11 @@
 /*   By: kbagot <kbagot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/08 19:16:31 by kbagot            #+#    #+#             */
-/*   Updated: 2017/02/11 17:46:33 by kbagot           ###   ########.fr       */
+/*   Updated: 2017/02/13 20:14:50 by kbagot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "libft.h"
 
 static void	spec_s(t_prt *prt, t_flag *flag, va_list ap)
 {

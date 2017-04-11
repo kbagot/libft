@@ -6,11 +6,11 @@
 /*   By: kbagot <kbagot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/08 19:24:07 by kbagot            #+#    #+#             */
-/*   Updated: 2017/02/11 17:31:23 by kbagot           ###   ########.fr       */
+/*   Updated: 2017/02/13 20:13:02 by kbagot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "libft.h"
 
 void	make_specifier(va_list ap, t_prt *prt)
 {

@@ -6,11 +6,11 @@
 /*   By: kbagot <kbagot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/17 18:25:40 by kbagot            #+#    #+#             */
-/*   Updated: 2017/02/09 14:58:33 by kbagot           ###   ########.fr       */
+/*   Updated: 2017/02/13 20:13:40 by kbagot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "libft.h"
 
 static void	stock_int(t_prt *prt, int c)
 {

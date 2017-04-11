@@ -6,11 +6,11 @@
 /*   By: kbagot <kbagot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/10 18:29:24 by kbagot            #+#    #+#             */
-/*   Updated: 2017/02/11 16:36:07 by kbagot           ###   ########.fr       */
+/*   Updated: 2017/02/13 20:13:51 by kbagot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "libft.h"
 
 static int	ft_strwchar(int chr, char *str, int i)
 {

@@ -6,13 +6,14 @@
 /*   By: kbagot <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/12 20:21:50 by kbagot            #+#    #+#             */
-/*   Updated: 2017/01/18 19:44:45 by kbagot           ###   ########.fr       */
+/*   Updated: 2017/04/11 11:46:50 by kbagot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include "printf.h"
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
@@ -89,8 +90,10 @@ void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 int					ft_sqrt(int nb);
 int					ft_recursive_factorial(int nb);
-void				ft_swap(int *a, int *b);
+void				ft_swap(char *a, char *b);
 int					ft_is_prime(int nb);
 int					ft_isspace(int c);
+void				ft_tabdel(char **s);
+char				**strmsplit(char const *s, char *c);
 
 #endif

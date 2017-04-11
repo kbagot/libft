@@ -6,11 +6,11 @@
 /*   By: kbagot <kbagot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/10 18:16:41 by kbagot            #+#    #+#             */
-/*   Updated: 2017/02/10 18:17:54 by kbagot           ###   ########.fr       */
+/*   Updated: 2017/02/13 20:13:59 by kbagot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "libft.h"
 
 int			ft_wcharlen(wchar_t wchar)
 {

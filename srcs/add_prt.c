@@ -6,11 +6,11 @@
 /*   By: kbagot <kbagot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/24 18:57:33 by kbagot            #+#    #+#             */
-/*   Updated: 2017/02/11 17:46:27 by kbagot           ###   ########.fr       */
+/*   Updated: 2017/02/13 20:12:27 by kbagot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "libft.h"
 
 void		prt_modifier(t_prt *prt, char *new)
 {

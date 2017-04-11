@@ -1,23 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_tabdel.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kbagot <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: kbagot <kbagot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/11/02 17:09:40 by kbagot            #+#    #+#             */
-/*   Updated: 2017/02/23 20:06:07 by kbagot           ###   ########.fr       */
+/*   Created: 2017/04/04 18:47:31 by kbagot            #+#    #+#             */
+/*   Updated: 2017/04/04 20:36:53 by kbagot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_swap(char *a, char *b)
+void	ft_tabdel(char **s)
 {
-	char *c;
+	int i;
 
-	c = NULL;
-	*c = *a;
-	*a = *b;
-	*b = *c;
+	i = 0;
+	if (s)
+	{
+		while (s[i])
+		{
+			ft_strdel(&s[i]);
+			i++;
+		}
+		free(s);
+		s = NULL;
+	}
 }

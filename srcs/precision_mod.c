@@ -6,11 +6,11 @@
 /*   By: kbagot <kbagot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/09 13:24:18 by kbagot            #+#    #+#             */
-/*   Updated: 2017/02/11 16:09:10 by kbagot           ###   ########.fr       */
+/*   Updated: 2017/02/13 20:13:17 by kbagot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "libft.h"
 
 static void	precision_mod_2(t_flag *flag, t_prt *prt, int signe)
 {
